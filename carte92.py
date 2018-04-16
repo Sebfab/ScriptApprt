@@ -298,9 +298,9 @@ if __name__ == '__main__':
     path=os.getcwd()
     test = False
     eval = True
-    annee = 2017
-    mois  = 02
-    jour  = 03
+    annee = 2018
+    mois  = 04
+    jour  = 30
 
     #Calcul du temps de trajet de référence
     EDF1 = "97 avenue Pierre Brossolette, Montrouge"
@@ -322,7 +322,7 @@ if __name__ == '__main__':
     date_arrival  =datetime.datetime(annee,mois,jour, 9,00)
     date_departure=datetime.datetime(annee,mois,jour,17,30)
 
-    l_cpostal=[92800]
+    l_cpostal=None
     if test:
         l_cpostal=[92800]
 
